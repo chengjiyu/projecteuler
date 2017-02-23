@@ -21,12 +21,12 @@ def place(l):
     return r
 def replace(n):
 
-for i in prime:
-    if str(i).count('0') >= 3 or str(i).count('1') >= 3 or str(i).count('2') >= 3:
-        p = place(len(str(i)))
-        for j in p:
-            for k in range(len(j))
-                if j[k] == 1:
-                    str(i)
+    for i in prime:
+        if str(i).count('0') >= 3 or str(i).count('1') >= 3 or str(i).count('2') >= 3:
+            p = place(len(str(i)))
+            for j in p:
+                for k in range(len(j)):
+                    if j[k] == 1:
+                        str(i)
 
 print(time()-start)
